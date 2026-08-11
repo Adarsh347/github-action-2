@@ -14,4 +14,4 @@ jobs:
         run: |
           echo "$global_env"
           echo "$job_level_env"
-          echo "${{ github.repository }}
+          echo "${{ github.repository }}"
