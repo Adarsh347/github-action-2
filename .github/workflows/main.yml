@@ -1,0 +1,15 @@
+name : context-demo
+on : push
+env:
+  global_env : "adarsh"
+
+jobs:
+  demo:
+    runs-on: ubuntu-22.04
+    env:
+      job_level_env: "akshay"
+      
+    steps:
+      - name:
+        run: echo "$global_env"
+
