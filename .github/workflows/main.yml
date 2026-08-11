@@ -11,5 +11,7 @@ jobs:
       
     steps:
       - name:
-        run: echo "$global_env"
-
+        run: |
+          echo "$global_env"
+          echo "$job_level_env"
+          echo "${{ github.repository }}
