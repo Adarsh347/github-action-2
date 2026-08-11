@@ -15,5 +15,5 @@ jobs:
           echo "$global_env"
           echo "$job_level_env"
           echo "${{ github.repository }}"
-          echo "$NAME"
-          echo "name123"
+          echo "${{ NAME }}"
+          echo "${{ name123 }}"
